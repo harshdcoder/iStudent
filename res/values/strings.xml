@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iStudent</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Logout</string>
+    <string name="title_activity_login">I-Student</string>
+    <string name="desc">Login Page Image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="cmrit_goes_android">Login with valid credentials&#8230;</string>
+    <string name="title_activity_options">Slider Menu</string>
+    <string name="time_table">Time-Table</string>
+    <string name="attendance">Attendance</string>
+    <string name="internal_marks">Internal Marks</string>
+    <string name="external_marks">External Marks</string>
+    <string name="eventname">Event Name</string>
+    <string name="startdate">Start Date</string>
+    <string name="enddate">End Date</string>
+    <string name="description">Message</string>
+    <string name="create_event">Create Event</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile No</string>
+    <string name="role">Role</string>
+    <string name="address">Address</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="student">Student</string>
+    <string name="hod">HOD</string>
+    <string name="staff">Staff</string>
+    <string name="admin">Admin</string>
+    <string name="create_student">Create Student</string>
+    <string name="create_staff">Create Staff</string>
+    <string name="reset">Reset</string>
+    <string name="department">Department</string>
+    <string name="semester">Semester</string>
+    <string name="title">Title</string>
+    <string name="venue">Venue</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="password_again">Password Again</string>
+    <string name="create_timesheet">Create Timesheet</string>
+    <string name="subject">Subject</string>
+    <string name="section">Section</string>
+    <string name="timings">Timings</string>
+    <string name="period">Period</string>
+    <string name="weekday">Weekday</string>
+    <string name="maxmarks">Max Marks</string>
+    <string name="marksobtained">Marks Obtained</string>
+    <string name="addmarks">Add Marks</string>
+    <string name="addattendance">Add Attendance</string>
+    <string name="percentage">Percentage</string>
+    <string name="attendedclasses">Attended Classes</string>
+    <string name="totalclasses">Total Classes</string>
+    <string name="update_event">Update Event</string>
+    <string name="update_timesheet">update Timesheet</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Register Student</item>
+        <item>Register Staff</item>
+        <item>Add Events</item>
+        <item>Add TimeTable</item>
+        <item>Modify Events</item>
+        <item>Modify TimeTable</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_event</item>
+        <item>@drawable/ic_time_table</item>
+        <item>@drawable/ic_event</item>
+        <item>@drawable/ic_time_table</item>
+    </array>
+
+    <string-array name="nav_drawer_items_staff">
+        <item>Home</item>
+        <item>Add Marks</item>
+        <item>Add Attendance</item>
+        <item>Change Password</item>
+        <item>Modify Marks</item>
+        <item>Modify Attendance</item>
+    </string-array>
+
+    <array name="nav_drawer_icons_staff">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_marks</item>
+        <item>@drawable/ic_attendance</item>
+        <item>@drawable/ic_password</item>
+        <item>@drawable/ic_marks</item>
+        <item>@drawable/ic_attendance</item>
+    </array>
+
+    <string-array name="nav_drawer_items_student">
+        <item>Home</item>
+        <item>View Events</item>
+        <item>View Marks</item>
+        <item>View Attendance</item>
+        <item>View Time Table</item>
+        <item>Change Password</item>
+        <item>Forum</item>
+    </string-array>
+
+    <array name="nav_drawer_icons_student">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_event</item>
+        <item>@drawable/ic_marks</item>
+        <item>@drawable/ic_attendance</item>
+        <item>@drawable/ic_forum</item>
+        <item>@drawable/ic_password</item>
+        <item>@drawable/ic_forum</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="home_view">Home View</string>
+    <string name="event_view">Event View</string>
+    <string name="events_calendar">Events Calendar</string>
+    <string name="cmrit_forum">Cmrit Forum</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_events_calendar">EventsCalendarActivity</string>
+    <string name="title_activity_change_pswd">ChangePswdActivity</string>
+    <string name="title_activity_forum">ForumActivity</string>
+    <string name="prepare_your_day_">Prepare your day !!!</string>
+    <string name="title_activity_staff">StaffActivity</string>
+    <string name="title_activity_student">StudentActivity</string>
+    <string name="modifymarks">Modify Marks</string>
+    <string name="modifyattendance">Modify Attendance</string>
+
+</resources>

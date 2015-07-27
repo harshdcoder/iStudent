@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.istudent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.istudent.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.istudent.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.istudent.AdminActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.istudent.StaffActivity"
+            android:label="@string/title_activity_staff" >
+        </activity>
+        <activity
+            android:name="com.istudent.StudentActivity"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.istudent.fragment.admin.ModifyEvent"
+            android:label="@string/title_activity_student" >
+        </activity>
+        <activity
+            android:name="com.istudent.fragment.admin.ModifyTimeTable"
+            android:label="@string/title_activity_student" >
+        </activity>
+        
+          <activity
+            android:name="com.istudent.fragment.staff.ModifyMarks"
+            android:label="@string/title_activity_staff" >
+        </activity>
+        <activity
+            android:name="com.istudent.fragment.staff.ModifyAttendance"
+            android:label="@string/title_activity_staff" >
+        </activity>
+    </application>
+
+</manifest>
